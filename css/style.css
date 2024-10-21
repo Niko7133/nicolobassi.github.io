@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 250px;
+  font-weight: 700;
+}
+
+.px-body {
+  @apply px-[100px];
+}
